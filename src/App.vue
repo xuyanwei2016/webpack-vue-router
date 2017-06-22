@@ -9,10 +9,14 @@
     import Home from './components/Home.vue';
     import Navs from './components/Navs.vue';
     export default {
+        /*请求数据 在页面一加载的时候就调取数据*/
+        mounted(){
+            this.$http.get('/hello')
+        },
         data(){
             return {}
         },
-        components: {Home},
+        components: {Home,Navs},
         methods: {}
     }
 </script>

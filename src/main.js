@@ -8,6 +8,9 @@ Vue.use(zfButton);//这样就可以在全局下使用了<zf-Button></zf-Button>
 import routes from './router.js';
 //引入动画库
 import 'animate.css';
+//加上vue-resource就可以在任何组件上发起http请求了
+import VueResource from 'vue-resource';
+Vue.use(VueResource);
 const router=new VueRouter(routes);
 const vm=new Vue({
     router,

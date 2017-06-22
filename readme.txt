@@ -19,3 +19,5 @@ package.json
 
 安装动画包
 npm install animate.css --save
+
+安装npm install vue-resource --save 是为了请求数据
