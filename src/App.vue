@@ -2,6 +2,7 @@
     <div>你好
     <Home></Home>
         <Navs></Navs>
+        <zf-button>点我啊</zf-button><!--自定义的全局组件-->
     </div>
 </template>
 <script>
